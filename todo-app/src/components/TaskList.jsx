@@ -1,4 +1,12 @@
+import Button from "./sharedUI/Button";
+
 const TaskList = () => {
+  const handleDelete = () => {
+    console.log("dlete");
+  };
+  const handleEdit = () => {
+    console.log("edit");
+  };
   return (
     <div className="flex justify-between px-4">
       <input type="checkbox" />
@@ -8,8 +16,8 @@ const TaskList = () => {
       </div>
 
       <div className="flex gap-3">
-        <button>Delete</button>
-        <button>Edit</button>
+        <Button onClick={handleDelete}>Delete</Button>
+        <Button onClick={handleEdit}>Edit</Button>
       </div>
     </div>
   );
