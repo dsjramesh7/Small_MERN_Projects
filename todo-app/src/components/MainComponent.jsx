@@ -4,7 +4,7 @@ import TaskMainArea from "./TaskMainArea";
 
 const MainComponent = () => {
   return (
-    <div className="h-4/5 w-4/5 border border-red-500 flex gap-5">
+    <div className="h-4/5 w-4/5 bg-white shadow-lg rounded-lg flex gap-5 p-5">
       <div className="w-1/5">
         <TaskCategoryArea />
       </div>

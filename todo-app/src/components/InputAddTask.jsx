@@ -10,7 +10,7 @@ const InputAddTask = () => {
         type="text"
         placeholder="add task here.."
         aria-label="ask Input"
-        className="p-2 w-4/5"
+        className="p-2 w-4/5 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
       />
       <Button onClick={handleAddTodo}>Add</Button>
     </div>
